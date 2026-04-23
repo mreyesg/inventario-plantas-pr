@@ -4,53 +4,120 @@
     "nombre_comun": "Orégano brujo",
     "nombre_cientifico": "Plectranthus amboinicus",
     "familia": "Lamiaceae",
+    "nombres_alternos": ["orégano de hoja ancha"],
+
     "categoria_principal": "respiratorio",
     "categorias_secundarias": ["digestivo"],
-    "usos_tradicionales": ["tos", "resfriado"],
+
+    "usos_tradicionales": ["tos", "resfriado", "congestion"],
     "parte_usada": ["hojas"],
-    "preparacion": ["infusión"],
+    "preparacion": ["infusión", "jarabe casero"],
+    "contexto_cultural": "Muy utilizada en remedios caseros puertorriqueños para afecciones respiratorias.",
+    "observaciones_tradicionales": "Frecuentemente se emplea en preparaciones domésticas con miel.",
+    "resumen_breve": "El orégano brujo es una de las plantas más reconocibles dentro de la medicina casera puertorriqueña, especialmente asociada al tratamiento de afecciones respiratorias como la tos y la congestión. Su uso suele darse en contextos domésticos, mediante infusiones o jarabes preparados en el hogar, donde la planta forma parte de prácticas de cuidado transmitidas entre generaciones. Más allá de su función medicinal, el orégano brujo ocupa un lugar en el repertorio cotidiano del saber popular, donde el conocimiento sobre su preparación y aplicación no se adquiere formalmente, sino a través de la experiencia compartida. En este sentido, la planta no solo actúa como recurso terapéutico, sino como vehículo de memoria cultural y continuidad en las formas de entender y atender la salud en el contexto puertorriqueño.",
     "nivel_evidencia": "tradicional",
     "compuestos": [],
+    "actividad_biologica": [],
+    "notas_cientificas": "",
+
     "advertencias": ["precaución en embarazo"],
-    "imagen": "images/plantas/oregano_brujo.jpg",
+    "interacciones": [],
+    "contraindicaciones": [],
+    "poblaciones_riesgo": ["embarazo"],
+
+    "fuentes_historicas": [],
+    "nomenclatura_antigua": [],
+    "referencias": [],
+    "imagen_principal": "images/plantas/oregano_brujo.jpg",
+    "galeria_imagenes": [ {"url": "images/plantas/oregano_brujo_hojas.jpg",
+    "descripcion": "Detalle de las hojas del orégano brujo"}],"videos": [  {"tipo": "explicativo","titulo": "Uso tradicional del orégano brujo","url": "https://..."}],
+    "audio": [],
+    "recursos_interactivos": [{"tipo": "explicativo","titulo": "Uso tradicional del orégano brujo","url": "https://..."}],
     "ficha_markdown": "content/fichas/oregano-brujo.md",
     "autor": "estudiante",
-    "referencias": []
+    "fecha_actualizacion": "",
+    "estado_editorial": "borrador"
   },
   {
     "id": "anamu",
     "nombre_comun": "Anamú",
     "nombre_cientifico": "Petiveria alliacea",
     "familia": "Phytolaccaceae",
+    "nombres_alternos": [],
+
     "categoria_principal": "inmunológico",
-    "categorias_secundarias": [],
+    "categorias_secundarias": ["antiinflamatorio"],
+
     "usos_tradicionales": ["dolor", "inflamación"],
     "parte_usada": ["raíz", "hojas"],
     "preparacion": ["decocción"],
+    "contexto_cultural": "Conocida en la tradición popular por sus usos medicinales diversos.",
+    "observaciones_tradicionales": "",
+    "resumen_breve": "El anamú es una de las plantas más complejas dentro del repertorio de la medicina tradicional puertorriqueña, tanto por la amplitud de sus usos como por la intensidad de las creencias que la rodean. Se emplea comúnmente en el manejo del dolor y la inflamación, pero también aparece en prácticas que trascienden lo estrictamente medicinal, incluyendo dimensiones simbólicas y protectoras dentro de ciertos contextos culturales. A diferencia de otras plantas de uso doméstico más cotidiano, el anamú suele asociarse a un conocimiento más especializado o reservado, donde su preparación y aplicación se transmiten con cautela. Esta combinación de eficacia percibida, fuerte presencia en la tradición y potencial riesgo en su uso lo convierte en un ejemplo claro de cómo la medicina popular articula experiencia, creencia y precaución en el contexto puertorriqueño.",
     "nivel_evidencia": "tradicional",
     "compuestos": [],
+    "actividad_biologica": [],
+    "notas_cientificas": "",
+
     "advertencias": ["uso moderado"],
-    "imagen": "images/plantas/anamu.jpg",
+    "interacciones": [],
+    "contraindicaciones": [],
+    "poblaciones_riesgo": [],
+
+    "fuentes_historicas": [],
+    "nomenclatura_antigua": [],
+    "referencias": [],
+
+    "imagen_principal": "images/plantas/anamu.jpg",
+    "galeria_imagenes": [],
+    "videos": [],
+    "audio": [],
+    "recursos_interactivos": [],
+
     "ficha_markdown": "content/fichas/anamu.md",
     "autor": "estudiante",
-    "referencias": []
+    "fecha_actualizacion": "",
+    "estado_editorial": "borrador"
   },
   {
     "id": "albahaca",
     "nombre_comun": "Albahaca",
     "nombre_cientifico": "Ocimum basilicum",
     "familia": "Lamiaceae",
+    "nombres_alternos": [],
+
     "categoria_principal": "digestivo",
-    "categorias_secundarias": [],
+    "categorias_secundarias": ["nervioso"],
+
     "usos_tradicionales": ["digestión", "nervios"],
     "parte_usada": ["hojas"],
     "preparacion": ["infusión"],
+    "contexto_cultural": "Frecuentemente cultivada en hogares y usada tanto con fines culinarios como medicinales.",
+    "observaciones_tradicionales": "",
+    "resumen_breve": "La albahaca ocupa un lugar singular dentro del entorno doméstico puertorriqueño, donde converge como planta culinaria, medicinal y ornamental. Su uso en infusiones para aliviar malestares digestivos o estados de nerviosismo convive con su presencia cotidiana en la cocina, lo que la convierte en una de las plantas más accesibles y familiarizadas dentro del hogar. Esta doble función, alimentaria y terapéutica, hace que el conocimiento sobre la albahaca circule de forma natural, sin una separación clara entre lo culinario y lo medicinal. En este sentido, la planta ejemplifica cómo, en el contexto puertorriqueño, las prácticas de cuidado pueden integrarse en la vida diaria de manera orgánica, sin necesidad de una distinción formal entre remedio y alimento.",
     "nivel_evidencia": "tradicional",
     "compuestos": [],
+    "actividad_biologica": [],
+    "notas_cientificas": "",
+
     "advertencias": [],
-    "imagen": "images/plantas/albahaca.jpg",
+    "interacciones": [],
+    "contraindicaciones": [],
+    "poblaciones_riesgo": [],
+
+    "fuentes_historicas": [],
+    "nomenclatura_antigua": [],
+    "referencias": [],
+
+    "imagen_principal": "images/plantas/albahaca.jpg",
+    "galeria_imagenes": [],
+    "videos": [],
+    "audio": [],
+    "recursos_interactivos": [],
+
     "ficha_markdown": "content/fichas/albahaca.md",
     "autor": "estudiante",
-    "referencias": []
+    "fecha_actualizacion": "",
+    "estado_editorial": "borrador"
   }
 ]
