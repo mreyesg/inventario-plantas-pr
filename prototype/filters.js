@@ -1,0 +1,1 @@
+// Filtros se implementarán en una etapa posterior.

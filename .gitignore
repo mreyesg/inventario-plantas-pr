@@ -1,0 +1,12 @@
+# VS Code local settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# logs
+*.log
+
+# temporary files
+temp/
+tmp/

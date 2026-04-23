@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #222;
+}
+
+header {
+  background: #2f6f4f;
+  color: white;
+  padding: 1.5rem;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+#plantas-container {
+  display: grid;
+  gap: 1rem;
+}
+
+.planta-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.planta-card h2 {
+  margin-top: 0;
+}
+
+.meta {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.lista {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.2rem;
+}
