@@ -26,6 +26,20 @@ main {
   padding: 1.5rem;
 }
 
+.toolbar {
+  margin-bottom: 1.25rem;
+}
+
+.toolbar input {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #cfd8d3;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: white;
+}
+
 #plantas-container {
   display: grid;
   gap: 1.25rem;
@@ -46,15 +60,41 @@ main {
 }
 
 .meta {
-  margin: 0.2rem 0;
+  margin: 0.2rem 0 0.7rem 0;
   color: #5a645e;
   font-size: 0.96rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: #e9efeb;
+  color: #30463b;
+  font-size: 0.85rem;
+}
+
+.tag-categoria {
+  background: #dceee3;
+  color: #24563a;
+}
+
+.tag-evidencia {
+  background: #f0ece2;
+  color: #6a5830;
 }
 
 .tabs {
   display: flex;
   gap: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 0.25rem;
   margin-bottom: 0.85rem;
   flex-wrap: wrap;
   border-bottom: 1px solid #d8dfdb;

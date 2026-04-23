@@ -1,10 +1,13 @@
 import { cargarPlantas } from "./data-loader.js";
 import { renderizarPlantas } from "./render.js";
 
+let plantasOriginales = [];
+
 async function iniciarApp() {
   try {
-    const plantas = await cargarPlantas();
-    renderizarPlantas(plantas);
+    plantasOriginales = await cargarPlantas();
+    renderizarPlantas(plantasOriginales);
+    configurarBusqueda();
   } catch (error) {
     console.error(error);
     const container = document.getElementById("plantas-container");
@@ -12,6 +15,22 @@ async function iniciarApp() {
       container.innerHTML = `<p>Error al cargar las plantas.</p>`;
     }
   }
+}
+
+function configurarBusqueda() {
+  const input = document.getElementById("busqueda");
+  if (!input) return;
+
+  input.addEventListener("input", () => {
+    const termino = input.value.toLowerCase().trim();
+
+    const filtradas = plantasOriginales.filter(planta =>
+      planta.nombre_comun.toLowerCase().includes(termino) ||
+      planta.nombre_cientifico.toLowerCase().includes(termino)
+    );
+
+    renderizarPlantas(filtradas);
+  });
 }
 
 window.mostrarTab = function(plantaId, tabNombre, boton) {

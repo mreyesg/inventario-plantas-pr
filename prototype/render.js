@@ -12,8 +12,12 @@ export function renderizarPlantas(plantas) {
     <article class="planta-card">
       <h2>${planta.nombre_comun}</h2>
       <p class="meta"><strong>Nombre científico:</strong> <em>${planta.nombre_cientifico}</em></p>
-      <p class="meta"><strong>Familia:</strong> ${planta.familia}</p>
-      <p class="meta"><strong>Categoría principal:</strong> ${planta.categoria_principal}</p>
+
+      <div class="tags">
+        <span class="tag">${planta.familia}</span>
+        <span class="tag tag-categoria">${planta.categoria_principal}</span>
+        <span class="tag tag-evidencia">${planta.nivel_evidencia}</span>
+      </div>
 
       <div class="tabs">
         <button class="tab-button active" onclick="mostrarTab('${planta.id}', 'usos', this)">Usos</button>
