@@ -2,14 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f7f7f7;
+  background: #f4f6f5;
   color: #222;
 }
 
 header {
   background: #2f6f4f;
   color: white;
-  padding: 1.5rem;
+  padding: 1.75rem 1.5rem;
+}
+
+header h1 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin: 0;
+  opacity: 0.92;
 }
 
 main {
@@ -18,26 +28,81 @@ main {
 
 #plantas-container {
   display: grid;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .planta-card {
   background: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
+  border: 1px solid #d9dfdb;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .planta-card h2 {
-  margin-top: 0;
+  margin: 0 0 0.35rem 0;
+  font-size: 1.35rem;
+  color: #1f3d2f;
 }
 
 .meta {
-  color: #555;
-  font-size: 0.95rem;
+  margin: 0.2rem 0;
+  color: #5a645e;
+  font-size: 0.96rem;
 }
 
-.lista {
-  margin: 0.5rem 0 0 0;
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #d8dfdb;
+  padding-bottom: 0.6rem;
+}
+
+.tab-button {
+  padding: 0.5rem 0.85rem;
+  border: none;
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #3c4f44;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.tab-button:hover {
+  background: #eef3f0;
+}
+
+.tab-button.active {
+  background: #2f6f4f;
+  color: white;
+  font-weight: 600;
+}
+
+.tab-panel {
+  background: #f8faf9;
+  border: 1px solid #e1e7e3;
+  border-radius: 10px;
+  padding: 0.95rem 1rem;
+}
+
+.tab-panel p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.tab-panel ul {
+  margin: 0;
   padding-left: 1.2rem;
+}
+
+.tab-panel li {
+  margin-bottom: 0.35rem;
+}
+
+.oculto {
+  display: none;
 }

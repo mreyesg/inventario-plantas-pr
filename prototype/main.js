@@ -14,4 +14,29 @@ async function iniciarApp() {
   }
 }
 
+window.mostrarTab = function(plantaId, tabNombre, boton) {
+  const paneles = [
+    `${plantaId}-usos`,
+    `${plantaId}-preparacion`,
+    `${plantaId}-advertencias`
+  ];
+
+  paneles.forEach(id => {
+    const panel = document.getElementById(id);
+    if (panel) {
+      panel.classList.add("oculto");
+    }
+  });
+
+  const panelActivo = document.getElementById(`${plantaId}-${tabNombre}`);
+  if (panelActivo) {
+    panelActivo.classList.remove("oculto");
+  }
+
+  const grupoTabs = boton.parentElement;
+  const botones = grupoTabs.querySelectorAll(".tab-button");
+  botones.forEach(btn => btn.classList.remove("active"));
+  boton.classList.add("active");
+};
+
 iniciarApp();
