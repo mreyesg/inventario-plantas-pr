@@ -13,7 +13,7 @@ export function renderizarPlantas(plantas) {
       <div class="planta-header">
         <div class="planta-media">
           <img 
-            src="../${planta.imagen_principal}" 
+            src="${planta.imagen_principal}" 
             alt="Imagen de ${planta.nombre_comun}"
             class="planta-imagen"
             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
@@ -101,7 +101,7 @@ export function renderizarPlantas(plantas) {
               ${
                 planta.galeria_imagenes && planta.galeria_imagenes.length
                   ? planta.galeria_imagenes.map(img => `
-                    <img src="../${img.url}" alt="${img.descripcion || "Imagen adicional"}" class="galeria-img" />
+                    <img src="${img.url}" alt="${img.descripcion || "Imagen adicional"}" class="galeria-img" />
                   `).join("")
                   : `<p class="vacio">Sin imágenes adicionales registradas.</p>`
               }
